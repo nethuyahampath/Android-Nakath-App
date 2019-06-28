@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nethuyahampath.nakathapp.bathActivity"
+    tools:showIn="@layout/activity_bath"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtBathBasic"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bath" />
+
+    <TextView
+        android:id="@+id/txtBathBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="mrK wjqreoao i|yd iakdkh lsÍu"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#31081F"/>
+
+    <TextView
+        android:id="@+id/txtBathBasic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBathBasic"
+        android:layout_marginTop="31dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#004346"
+        android:text="wfma%,a ui 12 jk n%yiam;skaod Èk fndam;a hqI ñY% kdkq .d iakdkh fldg bIag foaj;d wkqiaurKfhys fh§ jdih uekú’’’ "
+        android:textSize="20dp" />
+</RelativeLayout>

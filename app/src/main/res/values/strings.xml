@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NakathApp</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_moon">MoonActivity</string>
+    <string name="title_activity_bath">bathActivity</string>
+    <string name="title_activity_sun">sunActivity</string>
+    <string name="title_activity_temple">TempleActivity</string>
+    <string name="title_activity_temple2">temple2Activity</string>
+</resources>

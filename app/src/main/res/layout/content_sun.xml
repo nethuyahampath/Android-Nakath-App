@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nethuyahampath.nakathapp.sunActivity"
+    tools:showIn="@layout/activity_sun"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/sun"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtSunBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="w¨;a wjqreÿ Wodj"
+        android:textSize="30dp"
+        android:textColor="#31081F"/>
+
+    <TextView
+        android:id="@+id/txtSunBasic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSunBasic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:textColor="#004346"
+        android:text="wfma%,a ui 14 jk fikiqrod mQ¾jNd. 8’13 g isxy, w¨;a wjqreoao Wodfjhs’’’" />
+</RelativeLayout>

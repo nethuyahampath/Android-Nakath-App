@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nethuyahampath.nakathapp.MoonActivity"
+    tools:showIn="@layout/activity_moon"
+    android:background="#ffffff"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/moon" />
+
+    <TextView
+        android:id="@+id/txtMoonBasic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="kj i| ne,Su"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#31081F"/>
+
+    <TextView
+        android:id="@+id/txtMoonBasic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMoonBasic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:textSize="20dp"
+       android:paddingLeft="5dp"
+        android:textColor="#004346"
+        android:text="wNskj pkao% j¾Ih i|yd ud¾;= ui 18 jeks bßod Èk o wNskj iQ¾h j¾Ih i|yd wfma%,a ui 20 jeks isl=rdod Èk o kj i| ne,Su uekú’’’ " />
+</RelativeLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+        <!-- Content here -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+    <ImageView
+        android:id="@+id/imgMoon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/moon"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtMoon"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:text="kj i| ne,Su"
+            android:textSize="18dp"
+            android:textColor="#0C6291"/>
+
+        <Button
+            android:id="@+id/btnMoon"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:text=">>"
+            android:textColor="#E71D36"
+            android:background="@drawable/mybutton"
+           />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <ImageView
+            android:id="@+id/imgBath"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/bath"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtBath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mrK wjqreoao i|yd iakdkh lsÍu"
+                android:textSize="18dp"
+                android:textColor="#0C6291" />
+
+            <Button
+                android:id="@+id/btnBath"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgSun"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/sun"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtSun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="w¨;a wjqreÿ Wodj"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnSun"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgTemple"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/temple"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtTemple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mqKH ld,h"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnTemple"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/food"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wdydr msiSu"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnFood"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgWork"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/work"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtWork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jev we,a,Su ’.kqfokq lsÍu yd wydr wkqNjh"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnWork"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgOil"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/oil"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtOil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ysi f;,a .Eu"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnOil"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imgJob"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/job"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="/lSrlaId i|yd msg;aj hdu"
+                android:textSize="18dp"
+                android:textColor="#0C6291"/>
+
+            <Button
+                android:id="@+id/btnJob"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text=">>"
+                android:textColor="#E71D36"
+                android:background="@drawable/mybutton" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
